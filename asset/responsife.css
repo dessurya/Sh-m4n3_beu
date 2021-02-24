@@ -9,10 +9,6 @@
 
     #produk .beli a{
         display: block;
-        margin-bottom: 5px;
-    }
-    #produk .beli a:last-child{
-        margin-bottom: unset;
     }
 
     #tur #images img{
@@ -22,6 +18,10 @@
     #vidio img#slope,
     #angket #slope{
         display: none;
+    }
+
+    #angket{
+        background-color: unset;
     }
 }
 /* landscape */

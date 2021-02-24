@@ -51,13 +51,19 @@
     }
 
     .btn-style-one{
+        display: inline-block;
         color: white;
         background-color: rgba(184,166,119,1);
         border: 1px solid rgba(255, 255, 255, 0);
         padding: 12px 5px;
+        margin-bottom: 5px;
         border-radius: 12px;
         text-decoration: unset !important;
         transition: 1.21s all;
+    }
+
+    .btn-style-one:last-child{
+        margin-bottom: unset;
     }
 
     .btn-style-one:hover{
@@ -145,10 +151,14 @@
 /* produk */
 
 /* angket */
+    #angket{
+        background-color: #efeee8;
+    }
     #angket #slope{
         position: absolute;
         z-index: -1;
         top: -225px;
+        max-height: 600px;
     }
     #angket #float_box{
         background-color: white;
