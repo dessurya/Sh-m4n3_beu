@@ -1,0 +1,229 @@
+/* scroll bar */
+	/* scroller browser */
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+    /* scroller browser */
+
+    /* Track */
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 5px rgb(215,215,215); 
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+        }
+    /* Track */
+
+    /* Handle */
+        ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgb(215, 3, 0);
+        -webkit-box-shadow: inset 0 0 6px rgb(215,215,215); 
+        }
+        ::-webkit-scrollbar-thumb:window-inactive {
+        background: rgb(215,215,215); 
+        }
+    /* Handle */
+/* scroll bar */
+
+/* public */
+    body{
+        font-family: 'Montserrat', sans-serif;
+        text-align: justify;
+    }
+    div{
+        position: relative;
+    }
+
+    .full_width{
+        width: 100%;;
+    }
+
+    .cursor-pointer{
+        cursor: pointer;
+    }
+
+    .container{
+        padding: 4em 0 4em;
+        width: 73vw;
+    }
+
+    .btn-style-one{
+        color: white;
+        background-color: rgba(184,166,119,1);
+        border: 1px solid rgba(255, 255, 255, 0);
+        padding: 12px 5px;
+        border-radius: 12px;
+        text-decoration: unset !important;
+        transition: 1.21s all;
+    }
+
+    .btn-style-one:hover{
+        color: rgba(184,166,119,1);
+        background-color: rgba(255,255,255,0);
+        border: 1px solid rgba(184,166,119,1);
+    }
+
+    .btn-style-one.big-size{
+        font-size: 24pt;
+        padding: 24px 32px;
+        font-style: italic;
+    }
+
+    .bellota{
+        color: #b2a989;
+        font-family: 'Bellota', cursive;
+        font-weight: 300;
+        /* font-style: italic; */
+        padding: 1.2em 0;
+    }
+/* public */
+
+/* header_banner */
+    #header_banner #banner{
+        height: 116vh;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+/* header_banner */
+
+/* prefektur_shimane */
+    #prefektur_shimane #wisata{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #prefektur_shimane #wisata .row{
+        margin-bottom: 4px;
+    }
+    #prefektur_shimane #wisata .row:last-child{
+        margin-bottom: unset;
+    }
+
+    #prefektur_shimane #kecantikan{
+        width: 96%;
+        margin: 0 auto;
+    }
+    #prefektur_shimane #kecantikan .row{
+        margin-bottom: 12px;
+    }
+    #prefektur_shimane #kecantikan img{
+        margin-top: 20px;
+        width: 80px;
+    }
+    #prefektur_shimane #kecantikan .row:last-child{
+        margin-bottom: unset;
+    }
+/* prefektur_shimane */
+
+/* vidio */
+    #vidio img#slope{
+        z-index: -1;
+        position: absolute;
+        top: -32.5vh;
+    }
+
+    #vidio iframe{
+        width: 440px;
+        height: 245px;
+        margin: 0 1em;
+    }
+/* vidio */
+
+/* produk */
+    #produk h6{
+        margin: 1.2em 0;
+    }
+    #produk .row{
+        margin-bottom: 1.8em;
+    }
+    #produk .row:last-child{
+        margin-bottom: unset;
+    }
+    #produk .row h6{
+        font-size: 11pt;
+    }
+    #produk .row p{
+        font-size: 10pt;
+    }
+    #produk .beli a{
+        font-size: 8pt;
+    }
+/* produk */
+
+/* angket */
+    #angket #slope{
+        position: absolute;
+        z-index: -1;
+        top: -225px;
+    }
+    #angket #float_box{
+        background-color: white;
+        padding: 0 1em 5em;
+        box-shadow: 0px 0px 12px rgba(85, 85, 85, .6);
+    }
+    #angket #float_box p{
+        padding-bottom: 3em;
+    }
+/* angket */
+
+/* tur */
+    #tur{
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #tur #before_link{
+        padding-bottom: 2.8em;
+    }
+    #tur #prvided_by{
+        padding: 2.8em 0 1.2em;
+    }
+    #tur #prvided_by img{
+        height: 45px;
+    }
+    #tur #images img{
+        height: 220px;
+    }
+/* tur */
+
+/* akses */
+    #akses table{
+        margin: 2.8em 0 0;
+        background-color: #efeee9;
+        color: #b8a678;
+    }
+    #akses table thead tr{
+        border-bottom: solid 3px #b8a678;
+    }
+    #akses table thead tr th{
+        padding: 1.4em 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;    
+    }
+    #akses table thead tr th.showing{
+        color: white;
+        background-color: #b8a678;
+    }
+    #akses table tbody tr td{
+        padding: 2em 2em 4em;
+    }
+    #akses table tbody tr td h6{
+        margin: 1em 0 1.6em;
+        font-style: italic;
+    }
+/* akses */
+
+/* footer */
+    footer{
+        background-color: #efeee9;
+    }
+    footer .container{
+        padding: 1.8em 0 1em;
+    }
+    footer .container a{
+        text-decoration: unset;
+        color: #b8a678;
+    }
+/* footer */
