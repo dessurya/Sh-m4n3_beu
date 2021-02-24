@@ -30,6 +30,8 @@
     body{
         font-family: 'Montserrat', sans-serif;
         text-align: justify;
+        margin: 0;
+        padding: 0;
     }
     div{
         position: relative;
@@ -71,23 +73,13 @@
     }
 
     .bellota{
-        color: #b2a989;
+        color: #b8a577;
         font-family: 'Bellota', cursive;
         font-weight: 300;
         /* font-style: italic; */
         padding: 1.2em 0;
     }
 /* public */
-
-/* header_banner */
-    #header_banner #banner{
-        height: 116vh;
-        
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-/* header_banner */
 
 /* prefektur_shimane */
     #prefektur_shimane #wisata{
